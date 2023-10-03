@@ -1,4 +1,4 @@
-surface,rooms,bathrooms,bedroom,age,garage,price
+surface,rooms,bathrooms,bedrooms,age,garage,price
 40,2,1,1,9,0,62000
 70,3,1,2,34,0,70000
 34,2,1,1,8,0,59900
@@ -46,4 +46,6 @@ surface,rooms,bathrooms,bedroom,age,garage,price
 38,2,1,1,7,0,60000
 57,2,1,1,5,0,85000
 51,2,1,1,20,0,79000
-
+100,4,3,3,40,0,170000
+60,3,1,2,45,0,85000
+63,3,2,2,0,0,125000
