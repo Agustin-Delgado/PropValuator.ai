@@ -21,6 +21,7 @@ In this section, the characteristics of the model and each of its parameters wil
 -   All the prices are expressed in AR$ (Argentinian currency).
 -   Any AI library, such as Keras, were used for this project. It was carried out using numpy, pandas and matplotlib to plot the results.
 -   A small number of samples and hidden layers were used for the training data to avoid adding unnecessary complexity to the model. The objetive of this project is to learn and delve deeper into the AI ANN models.
+-   This project would probably be more accurate using another AI methods, such as k-nearest neighbors algorithm.
 
 ### Layers
 
@@ -235,13 +236,13 @@ Although both apartments are very similar, the actual price between them varies 
 
 One way to handle this problem is to gather further data for the training set and treat the outliers that do not match with their features in a special way.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
 ## Acknowledgements
 
 -   [doug and hobs answer about the size of the hidden layer](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw)
 -   [cdeterman answer about the lower validation error in comparison with the training error](https://stats.stackexchange.com/questions/187335/validation-error-less-than-training-error#:~:text=A%20lower%20validation%20than%20training,from%20the%20same%20statistical%20ensembles.)
 -   [This article to help me to understand my graphs](https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/)
 -   [Awesome README](https://github.com/matiassingers/awesome-readme)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

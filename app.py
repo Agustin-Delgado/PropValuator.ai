@@ -100,16 +100,15 @@ for fold in range(num_folds):
 
     train_mae_scores.append(train_fold_mae)
     test_mae_scores.append(test_fold_mae)
-    for i in range(len(predicted_out_test)):
 
+    # Print all the predictions and the respective ground truth values
+    for i in range(len(predicted_out_test)):
         print('Predicted price:', round(predicted_out_test[i][0]), 'Ground truth:', y_test_fold[i][0])
+
 average_train_mae = np.mean(train_mae_scores)
 average_test_mae = np.mean(test_mae_scores)
 
 plot_loss_curve(train_losses_per_fold, test_losses_per_fold)
-
-# Print all the predictions and the respective ground truth values
-
 
 # Print the average MAE
 print('Average train MAE:', average_train_mae)
